@@ -9,18 +9,24 @@
 <style>
     body{
         font-family: Arial;
-        padding: 20px;
+        padding: auto;
         background-color: #f4f7f8;
     }
 
     #cv{
         display: flex;
         justify-content: center;
+        
     }
 
     #formacionDiv{
         display: flex;
         align-items: flex-end;
+    }
+
+    #Formacion{
+        min-height: 5%;
+        max-height: 200%;
     }
 
     #experienciaDiv{
@@ -31,14 +37,20 @@
     #Personales{
         justify-content: center;
         padding: 15px;
-        width: 16%;
-        height: 1300px;
+        max-width: 16%;
+        height: 1400px;
         background-color: #eeeeee;
         border-radius: 5px;
         background-image: url("https://i.ibb.co/7vfpw9N/Imagen-de-fondo-html.png");
         background-repeat: no-repeat;
         background-size: 16rem;
      
+    }
+
+    #fechaDatosEmpresa{
+        padding-bottom: 140px;
+        display: flex;
+        align-items: flex-start;
     }
 
     #Profesionales{
@@ -52,11 +64,10 @@
 
     }
 
-
     #foto{
         height: 140px;
         width: 140px;
-        border-radius: 150px;
+        border-radius: 50%;
     }
 
     img{
@@ -116,20 +127,23 @@
     }
 
     #DatosUniversidad{
-        width: 80%;
-        height: 75px;
+        width: 77%;
+        min-height: 5%;
+        max-height: 200%;
     }
 
     #DatosEmpresa{
-        width: 80%;
-        height: 175px;
+        width: 77%;
+        min-height: 40%;
+        max-height: 200%;
         padding-bottom: 15px;
         
     }
 
     #DatosEmpresa2{
-        width: 80%;
-        height: 175px;
+        width: 77%;
+        min-height: 40%;
+        max-height: 200%;
     }
 
     #fechaDatosUniversidad{
@@ -138,12 +152,6 @@
         align-items: flex-start;
     }
 
-    
-    #fechaDatosEmpresa{
-        padding-bottom: 145px;
-        display: flex;
-        align-items: flex-start;
-    }
 
     #perfiles{
         font-size:larger;
@@ -162,6 +170,7 @@
 
     #actividades{
         font-size:small;
+        line-height : 25px;
     }
 
     #nombre{
@@ -181,6 +190,43 @@
 
     #empresaReferencia{
         color: #3a5b87;
+    }
+
+    @media (max-width:376px){
+        #Personales{
+            max-width: 35%;
+            height: 1800px;
+        }
+        #cv{
+        display: flex;
+        justify-content: center; 
+        width: 100%;
+        }
+        #foto{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        }
+        #formacionDiv{
+        display:block;
+        }
+       #experienciaDiv{
+        display:block;
+        }
+        #fechaDatosEmpresa{
+        padding-bottom: 5px;
+        }
+        #DatosEmpresa2{
+        padding-top: 15px;
+        }
+        #DatosEmpresa{
+        padding-bottom: 5px;
+        }
+        #actividades{
+        width: 200px;
+        line-height : 25px;
+        }
+
     }
 
 
