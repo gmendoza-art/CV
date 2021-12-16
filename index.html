@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial;
+        padding: 20px;
+        background-color: #f4f7f8;
+    }
+
+    #cv{
+        display: flex;
+        justify-content: center;
+    }
+
+    #formacionDiv{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #experienciaDiv{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #Personales{
+        justify-content: center;
+        padding: 15px;
+        width: 16%;
+        height: 1300px;
+        background-color: #eeeeee;
+        border-radius: 5px;
+        background-image: url("https://i.ibb.co/7vfpw9N/Imagen-de-fondo-html.png");
+        background-repeat: no-repeat;
+        background-size: 16rem;
+     
+    }
+
+    #Profesionales{
+        justify-content: center;
+        padding: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 50%;
+        background-color: white;
+        border-radius: 5px;
+
+    }
+
+
+    #foto{
+        height: 140px;
+        width: 140px;
+        border-radius: 150px;
+    }
+
+    img{
+        height: 20px;
+        width: 20px;
+
+    }
+    label{
+        font-size: small;
+
+    }
+    p{
+        font-size: small;
+
+    }
+    #DatosPersonales{
+        display: inline-block;
+        padding-bottom: 15px;
+    }
+    h3{
+        color: #3a5b87;
+    }
+    #Universidad{
+        font-size: medium;
+        padding-bottom: 7px;
+    }
+
+    #area{
+        font-size: medium;
+        padding-bottom: 7px;
+    }
+
+    #NombreUniversidad{
+        color: #3a5b87;
+        font-size: medium;
+        padding-bottom: 7px;
+    }    
+
+    #nombreEmpresa{
+        color: #3a5b87;
+        font-size: medium;
+        padding-bottom: 7px;
+    }    
+
+    #Cierre{
+        padding-bottom: 7px;
+    }
+
+    #inicioFinUniversidad{
+        color: #3a5b87;
+        font-size: small;
+    }
+
+    #inicioFinEmpresa{
+        color: #3a5b87;
+        font-size: small;
+    }
+
+    #DatosUniversidad{
+        width: 80%;
+        height: 75px;
+    }
+
+    #DatosEmpresa{
+        width: 80%;
+        height: 175px;
+        padding-bottom: 15px;
+        
+    }
+
+    #DatosEmpresa2{
+        width: 80%;
+        height: 175px;
+    }
+
+    #fechaDatosUniversidad{
+        padding-bottom: 35px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    
+    #fechaDatosEmpresa{
+        padding-bottom: 145px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #perfiles{
+        font-size:larger;
+    }
+
+    #Formacion{
+        font-size:larger;
+    }
+
+    #Foto{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #actividades{
+        font-size:small;
+    }
+
+    #nombre{
+        color: white;
+        text-align: center;
+    }
+
+    #tipoCurso{
+        font-size: medium;
+        padding-bottom: 7px;
+    }
+
+    #nombreReferencia{
+        font-size: medium;
+        padding-bottom: 7px;
+    }
+
+    #empresaReferencia{
+        color: #3a5b87;
+    }
+
+
+</style>
+<body>
+<div id="cv">
+    <div id="Personales">
+        <div id="nombreyfoto">
+            <div id="Nombre">
+                <h3 id="nombre">Gari Lester Mendoza Bedoya</h3>
+            </div>
+            <div id="Foto">
+            <img src="foto.jpg" id="foto">
+            </div>
+
+        </div>
+
+        <div id="DatosPersonales">
+            <h3 id="datosPersonales"><b>Datos Personales</b></h3>
+            <hr>
+            <div>
+            <div><img src="user.png"><label> Gari Lester Mendoza Bedoya</label></div><br>
+            <div><img src="email.png"><label> lester12342@gmail.com</label></div><br>
+            <div><img src="call.png"><label> 5718-5178</label></div><br>
+            <div><img src="home.png"><label> Condominio valle de navarra, encinos de navarra casa 20C sector 5 01052 San Jose Pinula</label></div><br>
+            <div><img src="gender.png"><label> Masculino</label></div><br>
+            <div><img src="report.png"><label> Guatemalteco</label></div><br>
+            </div>
+        </div>
+
+        <div id="Idiomas">
+            <h3 id="idioma"><b id="idioma">Idiomas</b></h3>
+            <hr>
+            <div>
+            <div><label> Ingles (60%)</label> </div><br>
+            </div>
+        </div>
+
+        <div id="Pasatiempos">
+            <h3><b id="Pasatiempo">Pasatiempos e intereses</b></h3>
+            <hr>
+            <div>
+                <ul>
+                    <li><label>Running</label></li>
+                    <li><label>Ciclismo</label></li>
+                    <li><label>Video Juegos</label></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="Profesionales">
+        <div id="perfiles">
+            <h3 id="perfil"><b>Perfil</b></h3>
+            <hr>
+            <p>
+            Habilidades
+            <ul>
+                <li><label>Java</label></li>
+                <li><label>C++</label></li>
+                <li><label>HTML</label></li>
+                <li><label>CSS</label></li>
+                <li><label>Java Script</label></li>
+                <li><label>C#</label></li>
+                <li><label>Angular</label></li>
+                <li><label>Spring de Java</label></li>
+                <li><label>Bases de datos (PostgreSQL, SQL Server, Oracle)</label></li>
+                <li><label>DevOps</label></li>
+                <li><label>Trello</label></li>
+            </ul>
+            </p>
+        </div><br>
+
+        <div id="Formacion">
+            <h3 id="formaciones"><b>Formación</b></h3>
+            <hr>
+            <div id="formacionDiv">
+                <div id="DatosUniversidad">
+                    <label><b id="Universidad">Universidad</b></label><br>
+                    <label><b id="NombreUniversidad">Mariano Galvéz, Guatemala</b></label><br>
+                    <label id="Cierre">Cierre de pensum en Ingeniería en sistemas </label>
+                </div>
+                <div id="fechaDatosUniversidad">
+                    <label id="inicioFinUniversidad">ene 2017 - nov 2021</label>
+                </div>
+            </div>
+        </div> 
+
+        <div id="Experiencia">
+            <h3 id="experiencia"><b>Experiencia</b></h3>
+            <hr>
+            <div id="experienciaDiv">
+                <div id="DatosEmpresa">
+                    <label><b id="area">Testing y Soporte</b></label><br>
+                    <label><b id="nombreEmpresa">Lógica Studio, Guatemala</b></label><br>
+                    <p id="actividades"> 
+                        Diseño de escenarios de prueba<br>
+                        Actualización de ambientes de prueba<br>
+                        Testing de proyectos<br>
+                        Creación de robots para pruebas<br>
+                        Actualización de ambientes en producción<br>
+                        Soporte a clientes<br>
+                        Reuniones de seguimiento<br>
+                        Capacitación a clientes<br>
+                    </p>
+                </div>
+                <div id="fechaDatosEmpresa">
+                    <label id="inicioFinEmpresa">oct 2019 - dic 2021</label>
+                </div>
+            </div>
+
+            <div id="experienciaDiv">
+                <div id="DatosEmpresa2">
+                    <label><b id="area">Cobros</b></label><br>
+                    <label><b id="nombreEmpresa">Arisa Corredora de seguros S.A., Guatemala</b></label><br>
+                    <p id="actividades"> 
+                        Cobro en sistema de requerimientos<br>
+                        Revisión de balances<br>
+                        Ingreso de papeleria al sistema<br>
+                        Envio de planillas a las aseguradoras<br>
+                        Ingreso de primas en deposito<br>
+                        Revisión de listado de mensajeria<br>
+                        Cierre mensual y anual.
+                    </p>
+                </div>
+                <div id="fechaDatosEmpresa">
+                    <label id="inicioFinEmpresa">ene 2017 - oct 2019</label>
+                </div>
+            </div>
+        </div>
+
+        <div id="Cursos">
+            <h3 id="cursos"><b>Cursos</b></h3>
+            <hr>
+            <label><b id="tipoCurso">Scrum Initial</b></label><br>
+            <p id="descripcionCurso"> 
+                Curso gratuito de Scrum Inicial<br>
+            </p>
+        </div>
+
+        <div id="Referencias">
+            <h3 id="referencias"><b>Referencias</b></h3>
+            <hr>
+            <label><b id="nombreReferencia">Heidy Barrios</b></label><br>
+            <label><b id="empresaReferencia">CMI, Guatemala</b></label><br>
+            <p id="datosReferencia"> 
+                5923-3767, heidybarrios15@gmail.com<br>
+            </p>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
